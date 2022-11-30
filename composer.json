@@ -16,7 +16,7 @@
 
     "autoload": {
         "psr-4": {
-            "Ybzc\\LaravelAdminlteUser": "src/"
+            "Ybzc\\LaravelAdminlteUser\\": "src/"
         }
     },
     "extra": {
