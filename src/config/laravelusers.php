@@ -41,8 +41,8 @@ return [
     // Use the provided blade templates or extend to your own templates.
     'showUsersBlade'                => 'laravelusers::usersmanagement.show-users',
     'createUserBlade'               => 'laravelusers::usersmanagement.create-user',
-    'showIndividualUserBlade'       => 'laravelusers::laraveladminlteuser.profile',
-    'editIndividualUserBlade'       => 'laravelusers::laraveladminlteuser.edit',
+    'showIndividualUserBlade'       => 'laraveladminlteuser::user.profile',
+    'editIndividualUserBlade'       => 'laraveladminlteuser::user.edit',
 
     // Use Package Bootstrap Flash Alerts
     'enablePackageBootstapAlerts'   => true,

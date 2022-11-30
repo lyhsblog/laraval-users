@@ -1,4 +1,4 @@
-@extends('laraveladminlteuser.master')
+@extends('user.master')
 
 @section('title', '用户资料')
 
