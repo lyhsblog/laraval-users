@@ -2,6 +2,7 @@
     "name": "ybzc.gg/laravel-adminlte-user",
     "description": "a adminlte user crud package for laravel",
     "type": "project",
+    "license": "MIT",
     "require": {
         "illuminate/support": "^9.42",
         "jeroennoten/laravel-adminlte": "^3.8",
