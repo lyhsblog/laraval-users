@@ -4,7 +4,8 @@
     "type": "project",
     "license": "MIT",
     "require": {
-        "illuminate/support": "^9.42",
+        "php": "^8.0.2",
+        "illuminate/support": "^9.19",
         "jeroennoten/laravel-adminlte": "^3.8",
         "jeremykenedy/laravel-users": "^4.3"
     },
