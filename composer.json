@@ -1,0 +1,29 @@
+{
+    "name": "ybzc.gg/laravel-adminlte-user",
+    "description": "a adminlte user crud package for laravel",
+    "type": "project",
+    "require": {
+        "illuminate/support": "^9.42",
+        "jeroennoten/laravel-adminlte": "^3.8",
+        "jeremykenedy/laravel-users": "^4.3"
+    },
+    "authors": [
+        {
+            "name": "lele",
+            "email": "ybzc.gg@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Ybzc\\LaravelAdminlteUser": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ybzc\\LaravelAdminlteUser\\LaravelAdminlteUserProvider"
+            ]
+        }
+    }
+}
