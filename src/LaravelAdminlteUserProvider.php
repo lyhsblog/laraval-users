@@ -27,10 +27,10 @@ class LaravelAdminlteUserProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../config/adminlte.php' => config_path('adminlte.php'),
+            __DIR__ . '/config/adminlte.php' => config_path('adminlte.php'),
         ],'adminlte');
         $this->publishes([
-            __DIR__ . '/../config/laravelusers.php' => config_path('laravelusers.php'),
+            __DIR__ . '/config/laravelusers.php' => config_path('laravelusers.php'),
         ],'laravelusers');
     }
 }
