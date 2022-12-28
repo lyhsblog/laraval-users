@@ -1,10 +1,10 @@
 <?php
 
-namespace Ybzc\LaravelAdminlteUser;
+namespace Ybzc\Laravel\AdminlteUser;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelAdminlteUserProvider extends ServiceProvider
+class AdminlteUserProvider extends ServiceProvider
 {
     private $_packageTag = 'laraveladminlteuser';
     /**

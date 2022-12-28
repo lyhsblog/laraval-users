@@ -18,13 +18,13 @@
 
     "autoload": {
         "psr-4": {
-            "Ybzc\\LaravelAdminlteUser\\": "src/"
+            "Ybzc\\Laravel\\AdminlteUser\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ybzc\\LaravelAdminlteUser\\LaravelAdminlteUserProvider"
+                "Ybzc\\Laravel\\AdminlteUserProvider"
             ]
         }
     }
