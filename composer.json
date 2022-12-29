@@ -1,7 +1,7 @@
 {
     "name": "ybzc.gg/laravel-users",
     "description": "a adminlte user crud package for laravel",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
