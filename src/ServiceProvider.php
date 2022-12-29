@@ -3,7 +3,7 @@
 namespace Ybzc\Laravel\User;
 
 
-class ServiceProvider extends Illuminate\Support\ServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     private $_packageTag = 'user';
     /**
