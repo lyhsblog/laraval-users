@@ -1,12 +1,11 @@
 <?php
 
-namespace Ybzc\Laravel\AdminlteUser;
+namespace Ybzc\Laravel\User;
 
-use Illuminate\Support\ServiceProvider;
 
-class AdminlteUserProvider extends ServiceProvider
+class ServiceProvider extends Illuminate\Support\ServiceProvider
 {
-    private $_packageTag = 'laraveladminlteuser';
+    private $_packageTag = 'user';
     /**
      * Register services.
      *
@@ -14,8 +13,8 @@ class AdminlteUserProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
-        $this->loadViewsFrom(__DIR__.'/resources/views/', $this->_packageTag);
+        $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
+        $this->loadViewsFrom(__DIR__ . '/resources/views/', $this->_packageTag);
         $this->mergeConfigFrom(__DIR__.'/config/'.$this->_packageTag.'.php', $this->_packageTag);
     }
 
@@ -26,9 +25,6 @@ class AdminlteUserProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([
-            __DIR__ . '/config/adminlte.php' => config_path('adminlte.php'),
-        ],'adminlte');
         $this->publishes([
             __DIR__ . '/config/laravelusers.php' => config_path('laravelusers.php'),
         ],'laravelusers');

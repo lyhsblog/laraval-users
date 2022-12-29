@@ -1,5 +1,5 @@
 {
-    "name": "ybzc.gg/laravel-adminlte-user",
+    "name": "ybzc.gg/laravel-users",
     "description": "a adminlte user crud package for laravel",
     "type": "project",
     "license": "MIT",
@@ -18,13 +18,13 @@
 
     "autoload": {
         "psr-4": {
-            "Ybzc\\Laravel\\AdminlteUser\\": "src/"
+            "Ybzc\\Laravel\\User\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ybzc\\Laravel\\AdminlteUserProvider"
+                "Ybzc\\Laravel\\User\\ServiceProvider"
             ]
         }
     }
